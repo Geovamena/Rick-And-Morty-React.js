@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import Location from "./components/Location";
+import Location from "./components/Location/Location";
 import "./App.css";
-import ResidentInfo from "./components/ResidentInfo";
-import Pagination from "./components/Pagination";
+import ResidentInfo from "./components/ResidentInfo/ResidentInfo";
+import Pagination from "./components/Pagination/Pagination";
 import axios from "axios";
-import Loading from "./components/Loading";
+import Loading from "./components/Loading/Loading";
 
 const randomID = () => Math.floor(Math.random() * 126 - 1) + 1;
 let ID;
